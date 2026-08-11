@@ -42,8 +42,6 @@ public class Lab3JavaMavenJar {
         System.out.println("---------------------------------------------------------");
         System.out.printf("%-10s | %-20s | %-15.2f | %-8s\n", MaSv, HoTen, tk, XepLoai);
         System.out.println("=========================================================");
-
-        System.out.println(MaSv + " - " + HoTen + " - " + tk + " - " + XepLoai);
     }
     public static void TinhDiem(){
         tk = cc*0.1 + gk*0.3 + ck*0.6;
